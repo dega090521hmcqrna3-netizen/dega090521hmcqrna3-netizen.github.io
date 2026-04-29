@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTEC – Consultores en Tecnologías</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <!-- NAV -->
+  <nav id="main-nav">
+    <div class="nav-logo"><img src="static/Contec_logo.jpg" alt="CONTEC"></div>
+    <ul class="nav-links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#tecnologia">Tecnología</a></li>
+      <li><a href="planes_contac.html">Planes</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#contacto" class="nav-cta">Cotizar</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#servicios" class="mob-link">Servicios</a>
+    <a href="#tecnologia" class="mob-link">Tecnología</a>
+    <a href="planes_contac.html" class="mob-link">Planes</a>
+    <a href="#contacto" class="mob-link">Contacto</a>
+    <a href="#contacto" class="mob-link" style="color:var(--accent)">Cotizar</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-grid"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">Plataforma de Gestión Vehicular</div>
+      <h1>Soluciones para la <span class="highlight">Gestión Vehicular</span></h1>
+      <p class="hero-desc">Protege tu flotilla con tecnología GPS de última generación. Rastreo en tiempo real, telemetría avanzada y control total desde cualquier dispositivo.</p>
+      <div class="hero-btns">
+        <a href="planes_contac.html" class="btn-primary">Ver Planes</a>
+        <a href="#contacto" class="btn-outline">Contáctanos</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat-item">
+          <div class="num counter" data-target="99">0</div><span>%</span>
+          <div class="lbl">Uptime garantizado</div>
+        </div>
+        <div class="hero-stat-item">
+          <div class="num counter" data-target="20">0</div><span>s</span>
+          <div class="lbl">Actualización GPS</div>
+        </div>
+        <div class="hero-stat-item">
+          <div class="num counter" data-target="24">0</div><span>/7</span>
+          <div class="lbl">Monitoreo activo</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-float">
+      <div class="float-card">
+        <span class="icon"><img src="static/satelite_GPS.png" alt="GPS"></span>
+        <p>Rastreo GPS</p>
+      </div>
+      <div class="float-card">
+        <span class="icon"><img src="static/telemetria.png" alt="Telemetría"></span>
+        <p>Telemetría</p>
+      </div>
+      <div class="float-card">
+        <span class="icon"><img src="static/app_movil.png" alt="App"></span>
+        <p>App Móvil</p>
+      </div>
+      <div class="float-card">
+        <span class="icon"><img src="static/uptime.png" alt="Uptime"></span>
+        <p>99% Uptime</p>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-mouse"></div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="problema" id="problema">
+    <div class="problema-text reveal">
+      <div class="section-label">¿Por qué elegir CONTEC?</div>
+      <h2>El robo vehicular es una realidad creciente</h2>
+      <p>El incremento en el robo de autos y camiones de carga en carretera y en las ciudades más importantes del territorio nacional ha crecido considerablemente, a pesar de los esfuerzos de las autoridades.</p>
+      <p>Contar con un sistema de localización que ofrezca estabilidad y eficiencia ayuda en la implementación de procesos de seguridad, diseño de rutas y control de incidencias.</p>
+      <div class="problema-stat-big">
+        <div class="num">+18%</div>
+        <div class="label">Incremento en robo de autos y transporte de carga — Último trimestre 2025</div>
+      </div>
+    </div>
+
+    <div class="problema-pillars reveal reveal-delay-2">
+      <div class="pillar">
+        <span class="pillar-icon"><img src="static/procesos.png" alt=""></span>
+        <div>
+          <h3>Procesos</h3>
+          <p>Optimización de procedimientos operativos y de seguridad</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon"><img src="static/procedimientos.png" alt=""></span>
+        <div>
+          <h3>Procedimientos</h3>
+          <p>Protocolos estandarizados adaptados a cada cliente</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon"><img src="static/tecnologia.png" alt=""></span>
+        <div>
+          <h3>Tecnología</h3>
+          <p>Dispositivos GPS/GPRS profesionales de última generación</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios" id="servicios">
+    <div class="section-label reveal">Nuestros Servicios</div>
+    <h2 class="reveal reveal-delay-1">Todo lo que necesitas para proteger tus activos</h2>
+
+    <div class="servicios-grid">
+      <div class="servicio-card reveal reveal-delay-1">
+        <div class="servicio-icon-wrap"><img src="static/localizacion.png" alt=""></div>
+        <h3>Localización</h3>
+        <p>Página WEB y APP móvil intuitiva y amigable, ideal para empresas y particulares que requieran ubicar su unidad en tiempo real.</p>
+      </div>
+      <div class="servicio-card reveal reveal-delay-2">
+        <div class="servicio-icon-wrap"><img src="static/consultoria_tecnica.png" alt=""></div>
+        <h3>Consultoría Técnica</h3>
+        <p>Gestión de instalaciones con personal calificado, de acuerdo a la necesidad específica de cada cliente.</p>
+      </div>
+      <div class="servicio-card reveal reveal-delay-3">
+        <div class="servicio-icon-wrap"><img src="static/rastreo_logistica.png" alt=""></div>
+        <h3>Rastreo / Logística</h3>
+        <p>Software de administración y gestión de flotillas, controlando costos de operación y mejorando el desempeño vehicular.</p>
+      </div>
+      <div class="servicio-card reveal reveal-delay-4">
+        <div class="servicio-icon-wrap"><img src="static/gestion_de_entrega.png" alt=""></div>
+        <h3>Gestión de Entrega</h3>
+        <p>Aplicación WEB con funciones de rastreo y herramienta innovadora de asignación y cumplimiento de entregas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUIEN -->
+  <section class="para-quien" id="para-quien">
+
+    <div class="para-quien-header reveal">
+      <div class="section-label" style="justify-content:center;">Soluciones Versátiles</div>
+      <h2>Tenemos la solución ideal para</h2>
+      <p>Nuestra plataforma escala para cubrir cualquier necesidad, desde un auto particular hasta maquinaria pesada</p>
+    </div>
+
+    <!-- TABS -->
+    <div class="veh-tabs reveal reveal-delay-1" id="veh-tabs">
+      <button class="veh-tab active" data-idx="0"><span class="tab-icon">🚗</span>Autos particulares</button>
+      <button class="veh-tab" data-idx="1"><span class="tab-icon">🚐</span>Unidades de reparto</button>
+      <button class="veh-tab" data-idx="2"><span class="tab-icon">🚛</span>Traslado de mercancía</button>
+      <button class="veh-tab" data-idx="3"><span class="tab-icon">🏗️</span>Maquinaria pesada</button>
+      <button class="veh-tab" data-idx="4"><span class="tab-icon">🚌</span>Transporte público</button>
+      <button class="veh-tab" data-idx="5"><span class="tab-icon">🏍️</span>Motos</button>
+    </div>
+
+    <!-- SHOWCASE -->
+    <div class="veh-showcase reveal reveal-delay-2" id="veh-showcase">
+
+      <!-- 0: Autos particulares -->
+      <div class="veh-slide active" data-slide="0">
+        <div class="veh-slide-img">
+          <img src="static/Auto_particular.jpg" alt="Auto particular">
+        </div>
+        <div class="veh-slide-info">
+          <div class="veh-slide-num">01 / 06 — Particulares</div>
+          <div class="veh-slide-title">Autos Particulares</div>
+          <div class="veh-slide-desc">Ubica tu vehículo personal en tiempo real desde cualquier dispositivo. Historial de recorridos, alertas de zona y mucho más para tu tranquilidad.</div>
+          <div class="veh-slide-tag">✓ Ideal para uso personal y familiar</div>
+        </div>
+      </div>
+
+      <!-- 1: Unidades de reparto -->
+      <div class="veh-slide" data-slide="1">
+        <div class="veh-slide-img">
+          <img src="static/Unidad_reparto.jpg" alt="Unidad de reparto">
+        </div>
+        <div class="veh-slide-info">
+          <div class="veh-slide-num">02 / 06 — Reparto</div>
+          <div class="veh-slide-title">Unidades de Reparto</div>
+          <div class="veh-slide-desc">Control de rutas y cumplimiento de entregas en tiempo real. Optimiza tiempos, reduce costos y mejora la satisfacción de tus clientes.</div>
+          <div class="veh-slide-tag">✓ Gestión de entregas integrada</div>
+        </div>
+      </div>
+
+      <!-- 2: Traslado de mercancía -->
+      <div class="veh-slide" data-slide="2">
+        <div class="veh-slide-img">
+          <img src="static/mercancia.jpg" alt="Traslado de mercancía">
+        </div>
+        <div class="veh-slide-info">
+          <div class="veh-slide-num">03 / 06 — Carga</div>
+          <div class="veh-slide-title">Traslado de Mercancía</div>
+          <div class="veh-slide-desc">Monitoreo permanente de tus trailers y camiones de carga en carretera. Alertas de velocidad, paradas no autorizadas y control de combustible.</div>
+          <div class="veh-slide-tag">✓ Cobertura nacional e internacional</div>
+        </div>
+      </div>
+
+      <!-- 3: Maquinaria pesada -->
+      <div class="veh-slide" data-slide="3">
+        <div class="veh-slide-img">
+          <img src="static/maquinaria_pesadaa.jpg"Maquinaria pesada">
+        </div>
+        <div class="veh-slide-info">
+          <div class="veh-slide-num">04 / 06 — Maquinaria</div>
+          <div class="veh-slide-title">Maquinaria Pesada</div>
+          <div class="veh-slide-desc">Localiza y monitorea excavadoras, grúas y equipos de construcción. Control de horas de trabajo, zonas de operación y prevención de robo.</div>
+          <div class="veh-slide-tag">✓ Sensores industriales integrados</div>
+        </div>
+      </div>
+
+      <!-- 4: Transporte público -->
+      <div class="veh-slide" data-slide="4">
+        <div class="veh-slide-img">
+          <img src="static/transporte_publico.jpg" alt="Transporte público">
+        </div>
+        <div class="veh-slide-info">
+          <div class="veh-slide-num">05 / 06 — Público</div>
+          <div class="veh-slide-title">Transporte Público</div>
+          <div class="veh-slide-desc">Gestión de concesiones y rutas de autobús en tiempo real. Cumplimiento de horarios, control de operadores y reportes automáticos para reguladores.</div>
+          <div class="veh-slide-tag">✓ Compatible con plataformas oficiales</div>
+        </div>
+      </div>
+
+      <!-- 5: Motos -->
+      <div class="veh-slide" data-slide="5">
+        <div class="veh-slide-img">
+          <img src="static/Motos.jpg" alt="Motos">
+        </div>
+        <div class="veh-slide-info">
+          <div class="veh-slide-num">06 / 06 — Motos</div>
+          <div class="veh-slide-title">Motos y Scooters</div>
+          <div class="veh-slide-desc">Rastreo GPS discreto y de alta precisión para motocicletas. Dispositivos compactos anti-jammer, ideales para mensajería, reparto y uso personal.</div>
+          <div class="veh-slide-tag">✓ Dispositivo ultracompacto</div>
+        </div>
+      </div>
+
+      <!-- Arrows -->
+      <div class="veh-arrows">
+        <button class="veh-arrow" id="veh-prev" aria-label="Anterior">
+          <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="veh-arrow" id="veh-next" aria-label="Siguiente">
+          <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="veh-progress-bar animating" id="veh-progress"></div>
+    </div>
+
+    <!-- DOTS -->
+    <div class="veh-dots" id="veh-dots">
+      <button class="veh-dot active" data-idx="0"></button>
+      <button class="veh-dot" data-idx="1"></button>
+      <button class="veh-dot" data-idx="2"></button>
+      <button class="veh-dot" data-idx="3"></button>
+      <button class="veh-dot" data-idx="4"></button>
+      <button class="veh-dot" data-idx="5"></button>
+    </div>
+
+  </section>
+
+  <!-- TECNOLOGIA -->
+  <section class="tecnologia" id="tecnologia">
+    <div class="section-label reveal">Infraestructura</div>
+    <h2 class="reveal reveal-delay-1">Tecnología de vanguardia</h2>
+
+    <div class="tec-cols">
+      <div class="reveal reveal-delay-1">
+        <div class="tec-item">
+          <div class="tec-item-header">
+            <div class="tec-icon-box"><img src="static/plataforma.png" alt=""></div>
+            <h3>Plataforma</h3>
+          </div>
+          <p>La mejor plataforma de logística con herramientas y funciones para localización o control de cadena de suministro. Integrada con FULLTRACK o GURTAM, con web service para UNIGIS y REC, usados por Walmart, DHL y Whirlpool.</p>
+        </div>
+        <div class="tec-item">
+          <div class="tec-item-header">
+            <div class="tec-icon-box"><img src="static/GPRS.png" alt=""></div>
+            <h3>Dispositivos GPS/GPRS</h3>
+          </div>
+          <p>Dispositivos profesionales de rastreo de las marcas más reconocidas del ramo, aplicados a las diferentes necesidades de operación y seguridad del cliente.</p>
+        </div>
+        <div class="tec-item">
+          <div class="tec-item-header">
+            <div class="tec-icon-box"><img src="static/tarjeta-sim.png" alt=""></div>
+            <h3>Conectividad M2M</h3>
+          </div>
+          <p>SIM de comunicación M2M multicarrier nacional e internacional con integración de Telcel, Telefónica y AT&T para mayor conectividad y cobertura.</p>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <div class="tec-highlight">
+          <h3>Características técnicas</h3>
+          <ul class="tec-feature-list">
+            <li>Eficiencia del sistema hasta 99%</li>
+            <li>Minería de datos cada 20 segundos</li>
+            <li>Tecnologías 3G, 4G y SIGFOX (anti-jammer)</li>
+            <li>Mantenimientos y actualizaciones vía aire</li>
+            <li>Cobertura Nacional e Internacional</li>
+            <li>Instalación bajo procesos por marca de unidad</li>
+            <li>Materiales de primera calidad</li>
+            <li>Integración con sensores y chapas magnéticas</li>
+            <li>APP móvil para Smartphone</li>
+            <li>Reportes automatizados</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONFIANZA -->
+  <section class="confianza">
+    <div class="section-label reveal" style="justify-content:center;">Respaldo y Confianza</div>
+    <h2 class="reveal reveal-delay-1">Parte de un grupo con gran trascendencia</h2>
+    <p class="reveal reveal-delay-2">CONTEC es parte de un grupo de empresas con gran experiencia en rastreo y control vehicular, asegurando un alto estándar en los procesos tecnológicos y técnicos para ofrecer servicios proactivos de desarrollo.</p>
+
+    <div class="asoc-badges reveal reveal-delay-2">
+      <div class="badge">
+        <img src="static/AMSIRIA.jpg" alt="AMSIRIA">
+        Asociación Mexicana de Seguridad Privada Información Rastreo Inteligencia Aplicada A.C.
+      </div>
+      <div class="badge">
+        <img src="static/RENASE.jpg" alt="RENASE">
+        Red Nacional de Empresas para la Seguridad Vehicular A.C.
+      </div>
+    </div>
+
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <img src="static/SINERGIA.jpg" alt="Sinergia">
+        <img src="static/SERMON.png" alt="Sermon">
+        <img src="static/WINLOW.jpg" alt="Winlow">
+        <img src="static/FULLTRACK.jpg" alt="Fulltrack">
+        <!-- Duplicated for seamless loop -->
+        <img src="static/SINERGIA.jpg" alt="Sinergia">
+        <img src="static/SERMON.png" alt="Sermon">
+        <img src="static/WINLOW.jpg" alt="Winlow">
+        <img src="static/FULLTRACK.jpg" alt="Fulltrack">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="reveal">
+      <div class="section-label">Contáctanos</div>
+      <h2>Hablemos de tu flotilla</h2>
+      <p>Estamos listos para ofrecerte la mejor solución en rastreo y seguridad vehicular. Contáctanos y recibe una propuesta personalizada.</p>
+      <a href="tel:5534508786" class="btn-primary">📞 Llamar ahora</a>
+    </div>
+
+    <div class="contact-cards reveal reveal-delay-2">
+      <div class="contact-item">
+        <div class="contact-icon">📞</div>
+        <div>
+          <div class="contact-label">Teléfono</div>
+          <div class="contact-val"><a href="tel:5534508786">55 3450 8786</a></div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <div class="contact-label">Correo electrónico</div>
+          <div class="contact-val"><a href="mailto:enrique.hernandez@sinergia360.com.mx">enrique.hernandez@sinergia360.com.mx</a></div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-label">Dirección</div>
+          <div class="contact-val">Oriente 178, #328<br>Moctezuma 2da Sección<br>Venustiano Carranza, CDMX</div>
+        </div>
+      </div>
+      <div class="horario-badge">🕐 Lunes a Viernes · 9:00 a.m. – 6:00 p.m.</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 <span>CONTEC</span> — Consultores en Tecnologías · Todos los derechos reservados
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="back-top" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg>
+  </button>
+</body>
+</html>
